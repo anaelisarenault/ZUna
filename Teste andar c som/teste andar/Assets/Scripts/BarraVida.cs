@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class BarraVida : MonoBehaviour {
     public Image barraVida;
+    public int fase;
     public static float vidaMax = 10, vidaAtual;
     
     // Use this for initialization
@@ -22,8 +23,15 @@ public class BarraVida : MonoBehaviour {
         barraVida.rectTransform.sizeDelta = new Vector2(vidaAtual/vidaMax  * 800, 36);
 
         if (vidaAtual <= 0) {
-            
-                SceneManager.LoadScene("Andar 1");        
+
+            if (fase == 1) {
+                SceneManager.LoadScene("Andar 1");
+            }
+            else if (fase == 2)
+            {
+                SceneManager.LoadScene("Andar 2");
+            }
+
         }
 
 	}
