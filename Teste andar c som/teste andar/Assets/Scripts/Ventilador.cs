@@ -6,8 +6,10 @@ public class Ventilador : MonoBehaviour {
     public Rigidbody ventilador;    
     void OnTriggerEnter(Collider other)
     {
-     mensagem.text = "Aperte V para ligar/desligar o ventilador.";
-                ventilador.AddRelativeTorque(0,20,0);          
+     mensagem.text = "16 ";
+                ventilador.AddRelativeTorque(0,150,0);
+        //static System.Windows.Forms.Timer myTimer = new System.Windows.Forms.Timer();
+
     }
-    
+
 }
