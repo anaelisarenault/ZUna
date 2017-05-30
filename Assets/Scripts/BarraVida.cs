@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class BarraVida : MonoBehaviour {
     public Image barraVida;
     public int fase;
-    public static float vidaMax = 10, vidaAtual;
+    public static float vidaMax = 100, vidaAtual;
     
     // Use this for initialization
     void Start () {

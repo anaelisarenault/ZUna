@@ -4,17 +4,20 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Inventario : MonoBehaviour {    
+public class Inventario : MonoBehaviour
+{
     public static int chavei, pocao1i, pocao2i, canivetei;
     public Image chave, pocao1, pocao2, canivete;
-    void Start () {        
+    void Start()
+    {
         chavei = 0;
         pocao1i = 0;
         pocao2i = 0;
         canivetei = 0;
     }
-	
-	void Update () {
+
+    void Update()
+    {
         if (chavei == 1)
         {
             chave.enabled = true;
@@ -31,6 +34,7 @@ public class Inventario : MonoBehaviour {
         {
             canivete.enabled = true;
         }
-        
+
     }
 }
+

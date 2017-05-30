@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class Colisao : MonoBehaviour {
 
         void OnTriggerEnter(Collider other) {
-        
-        BarraVida.vidaAtual = BarraVida.vidaAtual - 1;
+        if (other.gameObject.tag == "Player")
+        {
+            BarraVida.vidaAtual = BarraVida.vidaAtual - 5;
+        }
 
     }
         }

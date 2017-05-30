@@ -5,10 +5,11 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.Events;
 
-public class Coletar : MonoBehaviour {
+public class Coletar : MonoBehaviour
+{
     public Text mensagem;
     public int chavei, pocao1i, pocao2i, canivetei;
-    private int chavei1=0, pocao1i1=0, pocao2i1=0, canivetei1=0;
+    private int chavei1 = 0, pocao1i1 = 0, pocao2i1 = 0, canivetei1 = 0;
     void OnTriggerEnter(Collider other)
     {
         mensagem.text = "Para coletar aperte F";
