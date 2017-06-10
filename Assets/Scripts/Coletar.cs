@@ -8,11 +8,12 @@ using UnityEngine.Events;
 public class Coletar : MonoBehaviour
 {
     public Text mensagem;
-    public int chavei, pocao1i, pocao2i, canivetei;
-    private int chavei1 = 0, pocao1i1 = 0, pocao2i1 = 0, canivetei1 = 0;
+    public int chavei, pocao1i, pocao2i, canivetei, folhai;
+    private int chavei1 = 0, pocao1i1 = 0, pocao2i1 = 0, canivetei1 = 0; 
+    public static int folhai1 = 0;
     void OnTriggerEnter(Collider other)
     {
-        mensagem.text = "Para coletar aperte F";
+        mensagem.text = "Aperte o botão esquerdo do mouse";
         if (chavei == 1)
         {
             chavei1 = 1;
@@ -29,10 +30,16 @@ public class Coletar : MonoBehaviour
         {
             canivetei1 = 1;
         }
+        if (folhai == 1) {
+            folhai1 = 1;
+        }
+       
     }
+    
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        
+        if (Input.GetMouseButton(0))
         {
             mensagem.text = "   ";
             if (chavei1 == 1)
@@ -54,6 +61,10 @@ public class Coletar : MonoBehaviour
             {
                 Inventario.canivetei = 1;
                 Destroy(gameObject);
+            }
+            if (folhai1 == 1) {
+                Inventario.folhai2 = 1;
+                folhai = 0;
             }
 
         }
