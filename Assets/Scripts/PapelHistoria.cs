@@ -9,6 +9,7 @@ public class PapelHistoria : MonoBehaviour {
     public Image folha;
 
     void Start () {
+       
         folha.enabled = false;
         Jogador = GameObject.FindWithTag("Player");
 	}
@@ -16,10 +17,10 @@ public class PapelHistoria : MonoBehaviour {
 	
 	void Update () {
         if (Vector3.Distance(transform.position, Jogador.transform.position) < distancia)
-        {
+        {            
             folha.enabled = true;
         }
-        else {
+        else {            
             folha.enabled = false;
         }
 	}
