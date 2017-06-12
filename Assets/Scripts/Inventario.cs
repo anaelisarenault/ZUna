@@ -8,8 +8,8 @@ using UnityEngine.Events;
 
 public class Inventario : MonoBehaviour
 {
-    public static int chavei, pocao1i, pocao2i, canivetei, folhai2;
-    public Image chave, pocao1, pocao2, canivete, folha;
+    public static int chavei, pocao1i, pocao2i, canivetei;
+    public Image chave, pocao1, pocao2, canivete;
     public Text mensagem;
     void Start()
     {
@@ -43,19 +43,6 @@ public class Inventario : MonoBehaviour
             canivete.enabled = true;
             ;
         }
-        if (folhai2 == 1)
-        {
-            
-            folha.enabled = true;
-            mensagem.text = "Para sair aperte o botao direito do mouse";
-            if (Input.GetMouseButton(1))
-            {
-                folhai2 = 0;
-                mensagem.text = "    ";
-                folha.enabled = false;
-               
-            }
-          }
         
     }
 }
