@@ -9,25 +9,28 @@ public class Ventilador : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        //mensagem.text = "16 ";
-        if (ligado == false)
+        if (Input.GetMouseButton(0))
         {
-            ventilador.AddRelativeTorque(0, 300, 0);
-            ventilador2.AddRelativeTorque(0, 300, 0);
-            //static System.Windows.Forms.Timer myTimer = new System.Windows.Forms.Timer();
-            ligado = true;
-        }
-        else
-        {
-            ventilador.AddRelativeTorque(0, -150, 0);
-            ventilador2.AddRelativeTorque(0, -150, 0);
-            ventilador.AddRelativeTorque(0, 0, 0);
-            ventilador2.AddRelativeTorque(0, 0, 0);
-            ventilador.AddRelativeTorque(0, -50, 0);
-            ventilador2.AddRelativeTorque(0, -50, 0);
-            ventilador.AddRelativeTorque(0, 0, 0);
-            ventilador2.AddRelativeTorque(0, 0, 0);
-            ligado = false;
+            //mensagem.text = "16 ";
+            if (ligado == false)
+            {
+                ventilador.AddRelativeTorque(0, 300, 0);
+                ventilador2.AddRelativeTorque(0, 300, 0);
+                //static System.Windows.Forms.Timer myTimer = new System.Windows.Forms.Timer();
+                ligado = true;
+            }
+            else
+            {
+                ventilador.AddRelativeTorque(0, -150, 0);
+                ventilador2.AddRelativeTorque(0, -150, 0);
+                ventilador.AddRelativeTorque(0, 0, 0);
+                ventilador2.AddRelativeTorque(0, 0, 0);
+                ventilador.AddRelativeTorque(0, -50, 0);
+                ventilador2.AddRelativeTorque(0, -50, 0);
+                ventilador.AddRelativeTorque(0, 0, 0);
+                ventilador2.AddRelativeTorque(0, 0, 0);
+                ligado = false;
+            }
         }
     }
 
