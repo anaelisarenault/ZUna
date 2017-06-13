@@ -7,7 +7,7 @@ public class Colisao : MonoBehaviour {
         void OnTriggerEnter(Collider other) {
         if (other.gameObject.tag == "Player")
         {
-            BarraVida.vidaAtual = BarraVida.vidaAtual - 5;
+            BarraVida.vidaAtual = BarraVida.vidaAtual - 10;
         }
 
     }
