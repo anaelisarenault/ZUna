@@ -7,29 +7,29 @@ Direct3D:
     VRAM:     1623 MB
     Driver:   21.20.16.4542
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Clara Alonso\Downloads\ZUna-master\testejogo_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Clara Alonso\Downloads\ZUna-master\testejogo_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Clara Alonso\Downloads\ZUna-master\testejogo_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\Clara Alonso\Downloads\ZUna-master\testejogo_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\Clara Alonso\Downloads\ZUna-master\testejogo_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Clara Alonso\Downloads\ZUna-master\testejogo_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Clara Alonso\Downloads\ZUna-master\testejogo_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
-Loading C:\Users\Clara Alonso\Downloads\ZUna-master\testejogo_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-Platform assembly: C:\Users\Clara Alonso\Downloads\ZUna-master\testejogo_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Clara Alonso\Downloads\ZUna-master\testejogo_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Clara Alonso\Downloads\ZUna-master\testejogo_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Clara Alonso\Downloads\ZUna-master\testejogo_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.056 seconds
-Platform assembly: C:\Users\Clara Alonso\Downloads\ZUna-master\testejogo_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Clara Alonso\Downloads\ZUna-master\testejogo_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Clara Alonso\Documents\GitHub\ZUna\testejogo_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Clara Alonso\Documents\GitHub\ZUna\testejogo_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Clara Alonso\Documents\GitHub\ZUna\testejogo_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Clara Alonso\Documents\GitHub\ZUna\testejogo_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Clara Alonso\Documents\GitHub\ZUna\testejogo_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Clara Alonso\Documents\GitHub\ZUna\testejogo_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Clara Alonso\Documents\GitHub\ZUna\testejogo_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Clara Alonso\Documents\GitHub\ZUna\testejogo_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Clara Alonso\Documents\GitHub\ZUna\testejogo_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Clara Alonso\Documents\GitHub\ZUna\testejogo_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Clara Alonso\Documents\GitHub\ZUna\testejogo_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Clara Alonso\Documents\GitHub\ZUna\testejogo_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.025 seconds
+Platform assembly: C:\Users\Clara Alonso\Documents\GitHub\ZUna\testejogo_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Clara Alonso\Documents\GitHub\ZUna\testejogo_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 4.244051 ms
+UnloadTime: 35.786224 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 3668 -> priority: 1 
-  Thread -> id: 33a8 -> priority: 1 
+  Thread -> id: 3ba4 -> priority: 1 
+  Thread -> id: 1680 -> priority: 1 
 The referenced script on this Behaviour (Game Object 'Torus.001') is missing!
  
 (Filename:  Line: 1743)
@@ -79,14 +79,74 @@ The referenced script on this Behaviour (Game Object 'Torus.001') is missing!
 (Filename:  Line: 1743)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 18.283087 ms
+UnloadTime: 23.403511 ms
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 7063.
-Total: 3.490985 ms (FindLiveObjects: 0.765866 ms CreateObjectMapping: 0.489386 ms MarkObjects: 2.149972 ms  DeleteObjects: 0.084479 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 7064.
+Total: 2.118825 ms (FindLiveObjects: 0.631893 ms CreateObjectMapping: 0.209493 ms MarkObjects: 1.221972 ms  DeleteObjects: 0.053759 ms)
+
+The referenced script on this Behaviour (Game Object 'Torus.001') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Cube') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Torus.001') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Cube') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Cube') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Cube') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Torus.001') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Torus.001') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Cube') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Torus.001') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'portauna (10)') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'Torus.001') is missing!
+ 
+(Filename:  Line: 1743)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 66.895760 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 7065.
+Total: 1.154986 ms (FindLiveObjects: 0.357973 ms CreateObjectMapping: 0.084906 ms MarkObjects: 0.687786 ms  DeleteObjects: 0.023466 ms)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 16.631886 ms
+UnloadTime: 5.708797 ms
 
 Unloading 98 unused Assets to reduce memory usage. Loaded Objects now: 7772.
-Total: 3.315625 ms (FindLiveObjects: 0.594773 ms CreateObjectMapping: 0.210346 ms MarkObjects: 0.916906 ms  DeleteObjects: 1.593172 ms)
+Total: 6.874450 ms (FindLiveObjects: 0.878079 ms CreateObjectMapping: 0.467199 ms MarkObjects: 2.197759 ms  DeleteObjects: 3.330131 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 14.475087 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 7770.
+Total: 1.180586 ms (FindLiveObjects: 0.410453 ms CreateObjectMapping: 0.075946 ms MarkObjects: 0.668586 ms  DeleteObjects: 0.024319 ms)
 

@@ -46,11 +46,13 @@ public class Coletar : MonoBehaviour
             if (pocao1i1 == 1)
             {
                 Inventario.pocao1i = 1;
+                BarraVida.vidaAtual = BarraVida.vidaAtual + 30;
                 Destroy(gameObject);
             }
             if (pocao2i1 == 1)
             {
                 Inventario.pocao2i = 1;
+                BarraVida.vidaAtual = BarraVida.vidaAtual + 50;
                 Destroy(gameObject);
             }
             if (canivetei1 == 1)
