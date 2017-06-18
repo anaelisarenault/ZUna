@@ -10,15 +10,25 @@ public class PapelHistoria : MonoBehaviour {
 
     void Start () {
        
-        folha.enabled = false;
+        
         Jogador = GameObject.FindWithTag("Player");
 	}
 	
 	
 	void Update () {
         if (Vector3.Distance(transform.position, Jogador.transform.position) < distancia)
-        {            
-            folha.enabled = true;
+        {
+            if (Input.GetMouseButton(0))
+            {
+                if (folha.enabled == false)
+                {
+                    folha.enabled = true;
+                }
+                else
+                {
+                    folha.enabled = false;
+                }
+            }
         }
         else {            
             folha.enabled = false;
