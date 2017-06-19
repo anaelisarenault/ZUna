@@ -10,7 +10,8 @@ public class Inventario : MonoBehaviour
 {
     public static int chavei, pocao1i, pocao2i, canivetei;
     public Image chave, pocao1, pocao2, canivete;
-    public Text mensagem;
+   // public GameObject braco;
+    //public Text mensagem;
     void Start()
     {
         chavei = 0;
@@ -41,6 +42,7 @@ public class Inventario : MonoBehaviour
         if (canivetei == 1)
         {
             canivete.enabled = true;
+         //   braco.active = true;
             ;
         }
         

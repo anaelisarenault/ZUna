@@ -7,12 +7,12 @@ using UnityEngine.Events;
 
 public class Coletar : MonoBehaviour
 {
-    public Text mensagem;
+   // public Text mensagem;
     public int chavei, pocao1i, pocao2i, canivetei;
     private int chavei1 = 0, pocao1i1 = 0, pocao2i1 = 0, canivetei1 = 0; 
     void OnTriggerEnter(Collider other)
     {
-        mensagem.text = "Aperte o botão esquerdo do mouse";
+       // mensagem.text = "Aperte o botão esquerdo do mouse";
         if (chavei == 1)
         {
             chavei1 = 1;
@@ -35,9 +35,9 @@ public class Coletar : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetMouseButton(0))
+        if (Input.GetKeyDown(KeyCode.C))
         {
-            mensagem.text = "   ";
+           // mensagem.text = "   ";
             if (chavei1 == 1)
             {
                 Inventario.chavei = 1;
