@@ -1,0 +1,397 @@
+fileFormatVersion: 2
+guid: 1f4c0915ce555504fa9dea42d34b2e6b
+labels:
+- Barrel
+- Rust
+- Material
+- Substance
+SubstanceImporter:
+  serializedVersion: 5
+  materialInstances:
+  - serializedVersion: 16
+    name: Barrel_Blinn_Phong
+    prototypeName: Barrel_Blinn_Phong
+    shaderName: Bumped Specular
+    shader: {instanceID: 0}
+    shaderKeywords: 
+    renderQueue: -1
+    lightmapFlags: 5
+    inputs:
+    - name: $outputsize
+      value:
+        scalar[0]: 8
+        scalar[1]: 8
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: $pixelsize
+      value:
+        scalar[0]: 1
+        scalar[1]: 1
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: $randomseed
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: LabelColor
+      value:
+        scalar[0]: 0.607843
+        scalar[1]: 0.475547
+        scalar[2]: 0.0786603
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: RoughPlasticColor
+      value:
+        scalar[0]: 0.211765
+        scalar[1]: 0.211765
+        scalar[2]: 0.211765
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: MainPaint_Color
+      value:
+        scalar[0]: 1
+        scalar[1]: 0.233341
+        scalar[2]: 0
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: Paint_Chips_MetalColor
+      value:
+        scalar[0]: 0.720363
+        scalar[1]: 0.797116
+        scalar[2]: 0.827451
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: LidMetal_Color
+      value:
+        scalar[0]: 0.720363
+        scalar[1]: 0.797116
+        scalar[2]: 0.827451
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: SecondaryMetal_Color
+      value:
+        scalar[0]: 0.207752
+        scalar[1]: 0.219059
+        scalar[2]: 0.223529
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: LidMetal_OxidationStrength
+      value:
+        scalar[0]: 0.607
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: SecondaryMetal_Oxidation
+      value:
+        scalar[0]: 0.316
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Label_Input
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {fileID: 2800000, guid: d569f23a7fb9407499c863a42c0f5c12, type: 3}
+    - name: Rust_Stregnth
+      value:
+        scalar[0]: 0.325
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Rust_Fade
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: EdgeChips_Activation
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: EdgeChips_NormalStrength
+      value:
+        scalar[0]: -0.25
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Overall_Specular_Strength
+      value:
+        scalar[0]: 0.5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: RustNormalStrength
+      value:
+        scalar[0]: 3
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Rust_mask
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {fileID: 2800000, guid: 348d4a6edb6ad83438bc0cdd35325f73, type: 3}
+    materialInformation:
+      serializedVersion: 5
+      offset: {x: 0, y: 0}
+      scale: {x: 1, y: 1}
+      generateMipmaps: 1
+      generateAllOutputs: 0
+      animationUpdateRate: 0
+    materialProperties:
+      serializedVersion: 3
+      texEnvs:
+      - _BumpMap:
+          texture: {fileID: -630926841, guid: 00000000000000000000000000000000, type: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _MainTex:
+          texture: {fileID: 33545285, guid: 00000000000000000000000000000000, type: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      floats:
+      - _Shininess: 0.078125
+      colors:
+      - _Color: {r: 1, g: 1, b: 1, a: 1}
+      - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    textureParameters:
+    - name: Barrel_Blinn_Phong_Base
+      alphaSource: 5
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Barrel_Blinn_Phong_Specular
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Barrel_Blinn_Phong_normal
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    textureAssignments: []
+    buildTargetSettings:
+    - serializedVersion: 2
+      buildTarget: 
+      textureWidth: 2048
+      textureHeight: 2048
+      textureFormat: 0
+      loadingBehavior: 1
+  - serializedVersion: 16
+    name: Barrel_Blinn_Phong_1
+    prototypeName: Barrel_Blinn_Phong
+    shaderName: Reflective/Bumped Specular
+    shader: {instanceID: 0}
+    shaderKeywords: 
+    renderQueue: -1
+    lightmapFlags: 5
+    inputs:
+    - name: $outputsize
+      value:
+        scalar[0]: 8
+        scalar[1]: 8
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: $pixelsize
+      value:
+        scalar[0]: 1
+        scalar[1]: 1
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: $randomseed
+      value:
+        scalar[0]: 7368
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: LabelColor
+      value:
+        scalar[0]: 0.5147059
+        scalar[1]: 0.3192116
+        scalar[2]: 0.109753475
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: RoughPlasticColor
+      value:
+        scalar[0]: 0.2703287
+        scalar[1]: 0.31126952
+        scalar[2]: 0.36764705
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: MainPaint_Color
+      value:
+        scalar[0]: 0.1592236
+        scalar[1]: 0.45305234
+        scalar[2]: 0.6985294
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: Paint_Chips_MetalColor
+      value:
+        scalar[0]: 0.720363
+        scalar[1]: 0.797116
+        scalar[2]: 0.827451
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: LidMetal_Color
+      value:
+        scalar[0]: 0.26167822
+        scalar[1]: 0.30600876
+        scalar[2]: 0.32352942
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: SecondaryMetal_Color
+      value:
+        scalar[0]: 0.6228374
+        scalar[1]: 0.65073574
+        scalar[2]: 0.66176474
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: LidMetal_OxidationStrength
+      value:
+        scalar[0]: 0.766
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: SecondaryMetal_Oxidation
+      value:
+        scalar[0]: 0.405
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Label_Input
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {fileID: 2800000, guid: 9072e4c6bdc36c14cbda5cb1948a09dc, type: 3}
+    - name: Rust_Stregnth
+      value:
+        scalar[0]: 0.29
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Rust_Fade
+      value:
+        scalar[0]: 0.092
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: EdgeChips_Activation
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: EdgeChips_NormalStrength
+      value:
+        scalar[0]: -0.462
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Overall_Specular_Strength
+      value:
+        scalar[0]: 0.5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: RustNormalStrength
+      value:
+        scalar[0]: 3
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Rust_mask
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {fileID: 2800000, guid: 348d4a6edb6ad83438bc0cdd35325f73, type: 3}
+    materialInformation:
+      serializedVersion: 5
+      offset: {x: 0, y: 0}
+      scale: {x: 1, y: 1}
+      generateMipmaps: 1
+      generateAllOutputs: 0
+      animationUpdateRate: 0
+    materialProperties:
+      serializedVersion: 3
+      texEnvs:
+      - _BumpMap:
+          texture: {fileID: -659722398, guid: 00000000000000000000000000000000, type: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _Cube:
+          texture: {fileID: 8900000, guid: b39bab66cf1b852429197217c7b00874, type: 2}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _MainTex:
+          texture: {fileID: 454190750, guid: 00000000000000000000000000000000, type: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      floats:
+      - _Shininess: 0.20665379
+      colors:
+      - _Color: {r: 1, g: 1, b: 1, a: 1}
+      - _ReflectColor: {r: 0.63235295, g: 0.63235295, b: 0.63235295, a: 0.5019608}
+      - _SpecColor: {r: 0.9117647, g: 0.9117647, b: 0.9117647, a: 1}
+    textureParameters:
+    - name: Barrel_Blinn_Phong_1_Base
+      alphaSource: 5
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Barrel_Blinn_Phong_1_Specular
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Barrel_Blinn_Phong_1_normal
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    textureAssignments: []
+    buildTargetSettings:
+    - serializedVersion: 2
+      buildTarget: 
+      textureWidth: 1024
+      textureHeight: 1024
+      textureFormat: 0
+      loadingBehavior: 1
+  deletedPrototypes: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
